@@ -10,6 +10,7 @@ import javax.swing.JTextField;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
+import java.awt.Cursor;
 import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -108,6 +109,8 @@ public class Window extends JFrame {
                     checkBox.setBackground(new Color(255, 255, 255, 0));
                     checkBox.setMaximumSize(new Dimension(30, 40));
 
+                    checkBox.setContentAreaFilled(false);
+
                     JLabel taskLabel = new JLabel(taskText);
 
                     taskLabel.setFont(mainFont);
@@ -128,6 +131,12 @@ public class Window extends JFrame {
                     });
 
                     JButton deleteBtn = new JButton("X");
+
+                    deleteBtn.setContentAreaFilled(false);
+                    deleteBtn.setFocusable(false);
+                    deleteBtn.setCursor(new Cursor(Cursor.HAND_CURSOR));
+
+                    deleteBtn.setOpaque(true);
                     deleteBtn.setFont(mainFont);
                     deleteBtn.setBackground(new Color(255, 69, 58));
                     deleteBtn.setForeground(new Color(255, 255, 255));
