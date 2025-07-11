@@ -1,0 +1,10 @@
+Taj,Mumbai,5,9500
+Oyo,Delhi,3,3000
+ITC,Bangalore,4,7000
+Marina Bay Sands,Singapore,5,35000
+Burj Al Arab,Dubai,5,45000
+The Plaza,New York,5,42000
+Ritz London,London,5,40000
+Shangri-La,Paris,4,30000
+Park Hyatt,Tokyo,5,38000
+The Oberoi,Chennai,4,8000

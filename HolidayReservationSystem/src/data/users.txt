@@ -1,0 +1,10 @@
+john_doe,password123
+emma.watson,pass@456
+charles.brown,charlie2025
+sophia_smith,sophiaSecure
+liam.jones,liam@321
+oliver.james,oliver#007
+ava.williams,ava@pass
+ethan.johnson,ethan123
+mia.taylor,miat@999
+noah.davis,noahSecure
